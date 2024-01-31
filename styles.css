@@ -1,0 +1,122 @@
+/* Global styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    margin: 0 0 20px 0;
+  }
+  
+  p {
+    margin: 0 0 10px 0;
+  }
+  
+  a {
+    color: #1a73e8;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    display: inline-block;
+    margin: 0 10px 0 0;
+  }
+  
+  i {
+    font-size: 1.4em;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #fff;
+    padding: 20px 40px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin: 0;
+  }
+  
+  nav {
+    text-align: right;
+  }
+  
+  /* Main styles */
+  main {
+    padding: 40px;
+  }
+  
+  .welcome {
+    text-align: center;
+  }
+  
+  
+  
+  .projects a {
+    display: block;
+    margin: 0 0 10px 0;
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .projects a:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .call-to-action {
+    text-align: center;
+  }
+  
+  .button {
+    background-color: #1a73e8;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #c83900;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #ddd;
+    padding: 20px 40px;
+    text-align: center;
+  }
+  
+  .social-links {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .social-links li {
+    display: inline-block;
+    margin: 0 10px 0 0;
+  }
+  
+  /* Optional media queries for responsiveness */
+  @media only screen and (max-width: 768px) {
+    nav {
+      text-align: center;
+    }
+  }
+  
